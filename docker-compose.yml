@@ -1,0 +1,13 @@
+version: '3'
+services: 
+  rstudio: 
+    build: 
+      context: .
+      dockerfile: Dockerfile
+    container_name: rstudio
+    environment:
+      - PASSWORD=password
+    ports:
+      - 8787:8787
+    volumes:
+      - ./mount_folder:/home/rstudio

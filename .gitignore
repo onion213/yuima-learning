@@ -1,0 +1,5 @@
+# RStudio, Dockerの設定ファイル
+mount_folder/.config
+mount_folder/.local
+mount_folder/.rstudio
+mount_folder/.bash_history
