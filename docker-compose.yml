@@ -11,3 +11,5 @@ services:
       - 8787:8787
     volumes:
       - ./mount_folder:/home/rstudio
+    tty: true
+    stdin_open: true
